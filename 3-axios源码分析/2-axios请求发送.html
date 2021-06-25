@@ -29,8 +29,7 @@
         function dispatchRequest(config){
             //调用适配器发送请求
             return xhrAdapter(config).then(response => {
-                //响应的结果进行转换处理
-                //....
+                //响应的结果进行转换处理 ....
                 return response;
             }, error => {
                 throw error;
